@@ -11,7 +11,7 @@ type Student struct {
 }
 
 func main() {
-	i := make([]interface{}, 3)
+	i := make([]interface{}, 3) //切片
 	i[0] = 1
 	i[1] = "go"
 	i[2] = Student{"koko", 12}
