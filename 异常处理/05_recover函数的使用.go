@@ -13,7 +13,7 @@ func testB(i int) {
 		//recover()
 		//fmt.Println(recover())
 
-		if err := recover(); err != nil {
+		if err := recover(); err != nil { //恢复
 			fmt.Println(err)
 		}
 	}() //调用匿名函数
